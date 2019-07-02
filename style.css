@@ -15,3 +15,9 @@ nav a{
     font-size: 20pt;
     text-decoration: none;
 }
+
+header{
+    background-image: url("images/kages.jpg");
+    background-size: cover;
+    height: 500px;
+}
