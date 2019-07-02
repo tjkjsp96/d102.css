@@ -36,7 +36,7 @@ section div:nth-child(2){
     text-align: left;
 }
 
-div {
+section div {
     width: 40%;
 }
 
@@ -44,6 +44,38 @@ div ul{
     list-style-image: url("images/ninja.png");
 }
 
-ul li:nth-last-child(odd){
+/*ul li:nth-last-child(odd){
     color: white;
+}*/
+
+footer div{
+    background-color: #E78453;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    margin: 10px;
+}
+
+h3{
+    width: 150.906;
+    height: 22.563;
+    justify-content: space-around;
+    font-family: 'Permanent Marker', cursive;
+}
+
+footer div:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+
+div a{
+    margin: 10px;
 }
