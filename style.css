@@ -21,3 +21,29 @@ header{
     background-size: cover;
     height: 500px;
 }
+
+section{
+    background-color: #e5d0a9;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section  div:nth-child(1){
+    text-align: center;
+}
+section div:nth-child(2){
+    text-align: left;
+}
+
+div {
+    width: 40%;
+}
+
+div ul{
+    list-style-image: url("images/ninja.png");
+}
+
+ul li:nth-last-child(odd){
+    color: white;
+}
